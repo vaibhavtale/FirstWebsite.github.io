@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+
+            color: blue;
+            margin: 0;
+           
+        }
+
+        .wrapper{
+
+            width: 100%;
+            height: 600px;
+            background-color: azure;
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        .box1,.box2,.box3,.box4{
+
+            width: 24.7%;
+            height: 300px;
+            display: inline-block;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            
+        }
+
+        .box1{
+
+            background-color: aquamarine;
+            
+        }
+
+        .box2{
+
+            background-color: darkorange;
+        }
+        .box3{
+
+            background-color: rosybrown;
+        }
+
+        .box4{
+            background-color:blueviolet;
+        }
+
+        @media screen and (min-width:600px) {
+
+            body{
+
+                color: hotpink;
+            }
+        }
+
+        @media screen and (min-width:600px) and (max-width:1000px){
+
+            .box1,.box2,.box3,.box4{
+
+                width: 49.5%;
+            }
+        }
+
+        @media screen and (max-width:600px){
+
+            .box1,.box2,.box3,.box4{
+
+                 width: 100%;
+             }
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora laboriosam repellat ipsa facilis, laudantium quod. Sint consectetur voluptatibus esse, quibusdam odio debitis minima, dolorum adipisci commodi harum temporibus iste sit?</p>
+    <div class="wrapper">
+    <div class="box1">box1</div>
+    <div class="box2">box2</div>
+    <div class="box3">box3</div>
+    <div class="box4">box4</div>
+   </div>
+</body>
+</html>
